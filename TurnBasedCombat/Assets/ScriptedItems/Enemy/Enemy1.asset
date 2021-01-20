@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112b73eab2ef21245a262645aa409332, type: 3}
+  m_Name: Enemy1
+  m_EditorClassIdentifier: 
+  Abilities: []
+  alwaysDropTable:
+  - {fileID: 11400000, guid: 9204842d3cb08c84da272c5c12dc48b6, type: 2}
+  commonDropTable:
+  - {fileID: 11400000, guid: 4feba5852e8d95b47966373cd0468234, type: 2}
+  rareDropTable:
+  - {fileID: 11400000, guid: b036b9d8be9063d4b8091f7e02bbf70b, type: 2}
+  enemyID: 0
+  enemyLevel: 1
+  enemyName: Slime
+  enemyDescription: 
+  enemyMaxHP: 11
+  enemyCurHP: -7
+  enemyMaxMP: 11
+  enemyCurMP: 11
+  enemyBaseATK: 16
+  enemyCurATK: 16
+  enemyBaseDEF: 16
+  enemyCurDEF: 16
+  enemyBaseWIS: 16
+  enemyCurWIS: 16
+  enemyBaseSTR: 16
+  enemyCurSTR: 16
+  enemyBaseAGI: 16
+  enemyCurAGI: 16
+  experienceGranted: 333
+  isDefending: 0
+  defendingValue: 1
+  BasicEnemy: 1

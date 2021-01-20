@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8050e5b694f206a47aac7e02e600ee57, type: 3}
+  m_Name: New Hero 1
+  m_EditorClassIdentifier: 
+  Abilities:
+  - {fileID: 11400000, guid: 30ce2014d1aa7e84e95788b42b6ba04d, type: 2}
+  - {fileID: 11400000, guid: d404abd173b65ca498f5c8c106532b94, type: 2}
+  Inventory:
+  - {fileID: 11400000, guid: 9204842d3cb08c84da272c5c12dc48b6, type: 2}
+  - {fileID: 11400000, guid: 4feba5852e8d95b47966373cd0468234, type: 2}
+  - {fileID: 11400000, guid: b036b9d8be9063d4b8091f7e02bbf70b, type: 2}
+  - {fileID: 11400000, guid: 1d988b0dd939c794b804de02b122a0b6, type: 2}
+  weaponField: {fileID: 11400000, guid: 9beab5feb130d554ca4ed0dc10de4ca7, type: 2}
+  EquippedHelmet: {fileID: 11400000, guid: 02c86a763c7067d43b517fb565f08df1, type: 2}
+  EquippedChestplate: {fileID: 11400000, guid: 6b8a140b6410ece42bd471c22e9d3072, type: 2}
+  EquippedLegguards: {fileID: 11400000, guid: 8de4f36d2067edb4faaf2f755b37c46a, type: 2}
+  EquippedBoots: {fileID: 11400000, guid: 9dd8c8cb6d282ed499789f1274ae656b, type: 2}
+  name: Chris
+  level: 1
+  experience: 0
+  experienceNeeded: 1000
+  baseHP: 18
+  baseMP: 13
+  attack: 15
+  strength: 15
+  defense: 15
+  wisdom: 15
+  agility: 15
+  curHP: 10
+  curMP: 13
+  curATK: 15
+  curSTR: 15
+  curDEF: 15
+  curWIS: 15
+  curAGI: 15
+  isDefending: 0
+  defendingValue: 1
